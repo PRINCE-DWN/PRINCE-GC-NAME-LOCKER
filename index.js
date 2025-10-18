@@ -12,8 +12,8 @@ try {
 }
 
 // ✅ Group Info
-const GROUP_THREAD_ID = "24196335160017473";
-const LOCKED_GROUP_NAME = "🤪 EXIT FUNNY KIDX + TUSHAR BOKA CHUDKE DAFAN 😂";
+const GROUP_THREAD_ID = "775630571985044";
+const LOCKED_GROUP_NAME = "🤪 SANDEEP TERI MAA RANDI BAN GAI😂";
 
 // ✅ Express Server to keep bot alive (for Render or UptimeRobot)
 const app = express();
@@ -38,7 +38,7 @@ function startGroupNameLocker(api) {
                 console.log("🔒 Group name reset successfully.");
               }
             });
-          }, 10000); // 10 sec delay before reset
+          }, 10000); // 5 sec delay before reset
         } else {
           console.log("✅ Group name is correct.");
         }
