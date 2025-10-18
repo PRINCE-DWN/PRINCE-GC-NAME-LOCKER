@@ -1,4 +1,4 @@
-const login = require("ws3-fca");
+constconst login = require("ws3-fca");
 const fs = require("fs");
 const express = require("express");
 
@@ -12,8 +12,7 @@ try {
 }
 
 // ✅ Group Info
-const GROUP_THREAD_ID = "24196335160017473";
-const LOCKED_GROUP_NAME = "🤪 EXIT FUNNY KIDX + TUSHAR BOKA CHUDKE DAFAN 😂";
+const GROUP_THREAD_ID = "61552675224150constconst LOCKED_GROUP_NAME = "🤪 SANDEEP TERI MAA RANDI BAN GAI😂";
 
 // ✅ Express Server to keep bot alive (for Render or UptimeRobot)
 const app = express();
